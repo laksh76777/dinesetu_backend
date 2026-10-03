@@ -10,6 +10,11 @@
 Production REST API and real-time WebSocket backend engine for **DineSetu — Table Intelligence & Dining Experience** (Rasrang — Modern Indian Dining).
 
 ---
+Backend: https://github.com/laksh76777/dinesetu_backend.git
+backend deployed: https://dinesetu-backend-1.onrender.com
+
+frontend : https://github.com/laksh76777/DINEFLOW_frontend.git
+frontend deployed: https://dineflow-frontend-rosy.vercel.app/
 
 ## ⚡ Quick Start (Local)
 
