@@ -2,10 +2,12 @@
   "name": "dineflow-backend",
   "version": "1.0.0",
   "description": "DineFlow Smart Restaurant Table & Dining Management Backend",
+  "license": "MIT",
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
+    "postinstall": "tsc",
     "start": "node dist/server.js",
     "seed": "tsx src/scripts/seed.ts",
     "test:audit": "tsx src/scripts/testPhase16Audit.ts"
@@ -25,16 +27,16 @@
     "pdfkit": "^0.16.0",
     "qrcode": "^1.5.4",
     "socket.io": "^4.8.1",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.7",
     "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/multer": "^1.4.12",
-    "@types/node": "^22.10.7",
     "@types/pdfkit": "^0.13.9",
     "@types/qrcode": "^1.5.5",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "tsx": "^4.19.2"
   }
 }
